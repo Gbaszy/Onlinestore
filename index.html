@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Gbaszi Online Store</title>
+    <link rel="icon" href="apple-touch-icon.png" type="image/x-icon">
+    <style>
+      body{
+        background-image: linear-gradient(40deg,rgb(201, 205, 226), rgba(206, 167, 221, 0.158), rgba(7, 9, 116, 0.705));
+      }
+      .card{
+        margin-top: 15px;
+        padding-top: 0px;
+        height: 550px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(80deg,rgb(201, 205, 226), rgba(244, 241, 245, 0.918), rgba(7, 9, 116, 0.705));
+      }  
+      img{
+        border-radius: 5px;
+        box-shadow:-15px 35px 25px rgba(148, 158, 231, 0.582);
+        height: 200px;
+        width: 250px; 
+      }
+      .nav-link{
+        color: rgba(53, 6, 6, 0.87);
+        font-weight: 500;
+        font-size: 18px;
+      }
+      .navbar-brand img{
+        height: 50px;
+        width: 50px;
+      }
+      p{
+        padding: 10px;
+        text-wrap: wrap;
+      }
+      
+      .btn-primary{
+        border-radius: 5px;
+        font-weight: 700;
+        border-style: none;
+        font-size: 20px;
+        position: relative;
+      }
+      h2{
+        text-align: center;
+        color: rgba(53, 6, 6, 0.87);
+      }
+      .products{
+        margin-left: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+      }
+      .links img{
+        height: 60px;
+        width: 60px;
+      }
+      main{
+        margin-top: 100px;
+      }
+      .sub{
+        color: brown
+      }
+      hr{
+        margin-top: 30px;
+        margin-bottom: 0;
+      }
+      .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      span{
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+      }
+    </style>
+</head>
+<body class="">
+    <header class="">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container-fluid d-flex gap-5 justify-content-center"><div class="navbar-brand " >
+          <a href="#"><img src="apple-touch-icon.png" alt="Our Logo"></a> Gbaszi Store</div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+<main class="main">
+    <!--     Product Section  
+    This section displays the differents items we have in our store. the idea is that, on clicking the "Shop Now" you will be directed to the page that showcase all the products under the item with their price and quantity tags, there is also a chart where each chosen product will be added to. -->
+    <h2>Welcome to Home of Electronic Gadget and Household Electronics</h2>
+   <p class="products">Product Section</p>
+<section>
+    <div class="container">
+        <div class="row "><button class=" btn-primary"> <div class="sub">Phones Laptops and Accessories</div></button>
+            <div class="col-md-3 d-flex gap-2">
+                <div class="card ">
+                  <img src="earbud.png" class="image-fluid" alt="Earbud">
+                  <h5 class="card-title">Earbud</h5>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus exercitationem officia! Deserunt, aspernatur rerum suscipit a adipisci asperiores perferendis, optio at id, magni pariatur neque exercitationem! Ex, perspiciatis. Perspiciatis. </p>
+                  <button class="btn btn-primary">Shop Now</button>
+                </div>
+              </div>
+           <div class="col-md-3">
+                  <div class="card">
+                  <img src="phone.jpeg" class="image-fluid" alt="Phones">
+                  <h5 class="card-title">Phone</h5>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus exercitationem officia! Deserunt, aspernatur rerum  gsdsswe  rjehejshd</p>
+                  <button class="btn btn-primary">Shop Now</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+              <img src="laptop1.jpeg" class="image-fluid" alt="Laptop">
+              <h5 class="card-title">Laptops</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus exercitationem officia! Deserunt, aspernatur rerum suscipit a adipisci </p>
+              <button class="btn btn-primary">Shop Now</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+          <img src="earpiece.jpeg" class="image-fluid" alt="Earpiece">
+          <h5 class="card-title">Earpiece</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus exercitationem officia! Deserunt, aspernatur rerum suscipit a adipisci asperiores perferendis, optio at id, magni pariatur neque exercitationem! Ex, perspiciatis. Perspiciatis.</p>
+          <button class="btn btn-primary">Shop Now</button>
+        </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+      <img src="charger1.jpeg" class="image-fluid" alt="Charger">
+      <h5 class="card-title">Charger</h5>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus exercitationem officia! Deserunt, aspernatur rerum suscipit a adipisci asperiores perferendis, optio at id, magni pariatur neque exercitationem! Ex, perspiciatis. Perspiciatis.</p>
+      <button class="btn btn-primary">Shop Now</button>
+    </div>
+</div>
+<div class="col-md-3">
+  <div class="card">
+ 
+  <img src="watch1.jpeg" class="image-fluid" alt="iwatch">
+  <h5 class="card-title">iWatch</h5>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus exercitationem officia! Deserunt, aspernatur rerum suscipit a adipisci asperiores perferendis, optio at id, magni pariatur neque exercitationem! Ex, perspiciatis. Perspiciatis.</p>
+  <button class="btn btn-primary">Shop Now</button>
+  </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card">
+    <img src="power bank.jpeg" class="image-fluid" alt="Power Bank">
+    <h5 class="card-title">Power Bank</h5>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus exercitationem officia! Deserunt, aspernatur rerum suscipit a adipisci asperiores perferendis, optio at id, magni pariatur neque exercitationem! Ex, perspiciatis. Perspiciatis.</p>
+    <button class="btn btn-primary">Shop Now</button>
+    </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+      <img src="headsets.jpeg" class="image-fluid" alt="Headsets">
+      <h5 class="card-title">Headsets</h5>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus exercitationem officia! Deserunt, aspernatur rerum suscipit a adipisci asperiores perferendis, optio at id, magni pariatur neque exercitationem! Ex, perspiciatis. Perspiciatis.</p>
+      <button class="btn btn-primary">Shop Now</button>
+      </div>
+      </div>
+        </div>
+        <div class="last row mt-5"><button class=" btn-primary mb-2 "><div class="sub">Home Accessories </div> </button>
+          <div class="col-md-3 d-flex ">
+            <div class="card">
+             <img src="tv.jpeg"  alt="Tv"> 
+                <h5 class="card-title">Television</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.ddttdee uegegeufe yetefeydey udfsjdyudmvbv kddghddk jfwifeu ehehejk jejuefhs Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, vitae! Lorem ipsum dolor sit amet. .</p>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+            </div>
+            </div>
+         <div class="col-md-3 ">
+          <div class="card" >
+           <img src="freezer.jpeg" class="image-fluid" alt="Freezer">
+              <h5 class="card-title">Freezers</h5>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus nesciunt aspernatur delectus fugiat atque numquam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam Lorem  threart yourt.</p>
+              <a href="#" class="btn btn-primary">Shop Now</a>
+          </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+            <img src="gas cooker.jpeg" class="image-fluid" alt="Gas Cookers">
+            <h5 class="card-title">Gas Cookers</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus exercitationem officia! Deserunt, aspernatur rerum suscipit a adipisci asperiores perferendis, optio at id, magni pariatur neque exercitationem! Ex, perspiciatis. Perspiciatis.</p>
+            <button class="btn btn-primary">Shop Now</button>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+       <a href="#"> <img src="blender.jpeg" class="image-fluid" alt="Blenders"></a>
+        <h5 class="card-title">Blenders</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus exercitationem officia! Deserunt, aspernatur rerum Lorem ipsum dolor sit amet. Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+        <button class="btn btn-primary">Shop Now</button>
+      </div>
+  </div>
+        </div> 
+</section>
+
+<!-- Footer Section-->
+
+<hr>
+<section class="footer">
+  <div class="row contact d-flex justify-content-center">
+    <div class="col-md-3 p-5"><p><a href="onlinestore.html">Contact us </a></p>
+    <p>Mobile: 08121818751</p>
+    <P>Email Address:<a href="Gmail.com" target="_blank"><span> <i>godwinmobile@gmail.com </i></span></a></P>
+  </div>
+  <div class="links d-flex gap-5 mt-2 mb-3 col-md-7 ml-md-2 justify-content-center align-items-center">
+    <a href="#"><img src="Whatsapp.ico"></a>
+    <a href="#"><img src="twitter.ico" ></a>
+    <a href="#"><img src="instagram.ico"></a>
+    <a href="#"><img src="facebook.ico"></a>
+    </div>
+    <div class="copyright col-md-2 d-flex justify-content-center align-items-center"> <span>copyright @Gbaszi.info.org 2024, all right reserved</span>.</div>
+  </div>
+</section>
+</main>
+</body>
+</html>
